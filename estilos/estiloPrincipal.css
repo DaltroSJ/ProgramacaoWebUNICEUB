@@ -1,26 +1,35 @@
 body{
 
-	background-color:  black;
+	background-image: url('../res/imagemFundo.jpg');
 
 }
 
 h1{
 
 	text-align: center;
-	color:  red;
+	color:  purple;
 
 }
 
-ul{
+h2{
+
+	color:  green;
+
+}
+
+li{
 
 	color: green;
 
 }
+
+
 #topo{
 
 	width: full;
 	height:  100px;
-	background-color:  green;
+
+	
 
 }
 
@@ -28,21 +37,86 @@ ul{
 	display: inline-block;
 	width: 15%;
 	height:  500px;
-	background-color:  red;
-	position: absolute;
+	position: static;
 }
 
 #centro{
 	display: inline-block;
 	width: 100%;
 	height:  500px;
-	background-color:  blue;
-	position: static;
+	position: fixed;
 
 }
 #rodape{
 	width: full;
 	height:  100px;
-	background-color:  purple;
 	position: static;
+
+}
+
+#botaoHome{
+
+	border-image: url('../res/iconesBootstrap/house.svg');
+
+}
+
+.menu{
+
+	align-items: center;
+
+}
+
+a:link, a:visited {
+
+	text-decoration: none
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+	color: red;
+
+}
+
+a:active {
+	text-decoration: none;
+
+}
+
+#imagemMorango{
+
+	background-image:url('../res/sementesMorango.jpg'); 
+	padding: 50px;
+}
+
+table {
+
+	border: 0px;
+	border-spacing: 10px;
+	border-collapse: all;
+	background-color: yellow;
+	color: black;
+
+}
+
+table td{
+
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+
+}
+
+#botaoAlterar{
+
+	background-image:url('../res/iconesBootstrap/pencil-fill.svg');
+	padding: 8px;
+}
+
+#botaoExcluir{
+
+	background-image:url('../res/iconesBootstrap/trash-fill.svg'); 
+	padding: 8px;
 }
